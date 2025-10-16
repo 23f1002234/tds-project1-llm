@@ -1,0 +1,9 @@
+# .gitignore (example)
+env.txt
+.env
+*.env
+.env.*    # optional: .env.local, .env.production, etc.
+.venv/
+.venv
+__pycache__/
+*.pyc

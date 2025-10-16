@@ -1,0 +1,130 @@
+2025-10-17 02:31:43,820 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:32:13,821 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:32:43,821 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:33:13,822 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:33:39,662 [INFO] [SHUTDOWN] Waiting for background tasks to finish (graceful shutdown)...
+2025-10-17 02:33:44,324 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:34:14,324 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:34:44,324 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:35:14,324 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:35:44,325 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:36:14,325 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:36:44,325 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:36:47,517 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:37:09,994 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:37:10,861 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:37:11,111 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:37:11,299 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:37:11,974 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:37:14,325 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:37:30,595 [INFO] [SHUTDOWN] Waiting for background tasks to finish (graceful shutdown)...
+2025-10-17 02:37:35,052 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:37:44,467 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:37:45,559 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:37:45,740 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:38:05,052 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:38:27,134 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:38:27,977 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:38:28,178 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:38:28,410 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:38:28,591 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:38:35,052 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:38:37,151 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:38:38,216 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:38:38,918 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:39:05,053 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:39:35,054 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:39:54,882 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:39:56,298 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:40:05,055 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:40:10,859 [WARNING] Unauthorized attempt for task captcha-solver-123 from 127.0.0.1
+2025-10-17 02:40:35,055 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:41:05,057 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:41:35,057 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:42:05,056 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:42:35,058 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:42:45,775 [INFO] [SHUTDOWN] Waiting for background tasks to finish (graceful shutdown)...
+2025-10-17 02:42:53,358 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:43:03,858 [INFO] Received task captcha-solver-123. Background processing started.
+2025-10-17 02:43:03,859 [INFO] [PROCESS START] Task: captcha-solver-123 Round: 1
+2025-10-17 02:43:03,964 [INFO] [GIT] R1: Creating remote repo 'captcha-solver-123'
+2025-10-17 02:43:04,032 [ERROR] [CRITICAL FAILURE] Task captcha-solver-123 failed: Illegal header value b'token '
+Traceback (most recent call last):
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpcore/_async/http11.py", line 86, in handle_async_request
+    await self._send_request_headers(**kwargs)
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpcore/_async/http11.py", line 144, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'token '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ragnar/Downloads/its_ok_gemini/main.py", line 451, in generate_files_and_deploy
+    repo = await setup_local_repo(local_path, repo_name, repo_url_auth, repo_url_http, round_index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/main.py", line 213, in setup_local_repo
+    resp = await client.post(f"{settings.GITHUB_API_BASE}/user/repos", json=payload, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/ragnar/Downloads/its_ok_gemini/.ven/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'token '
+2025-10-17 02:43:04,052 [INFO] [PROCESS END] Task: captcha-solver-123 Round: 1
+2025-10-17 02:43:04,052 [INFO] [BACKGROUND TASK] Task finished successfully.
+2025-10-17 02:43:23,358 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:43:53,359 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:44:23,360 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:44:53,360 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:45:23,360 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:45:37,215 [INFO] [SHUTDOWN] Waiting for background tasks to finish (graceful shutdown)...
+2025-10-17 02:48:26,687 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:48:56,688 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:49:26,689 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:49:56,690 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:50:26,690 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:50:56,691 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:51:26,691 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:51:56,691 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:52:26,692 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:52:56,692 [INFO] [KEEPALIVE] Service heartbeat
+2025-10-17 02:53:26,693 [INFO] [KEEPALIVE] Service heartbeat
